@@ -7,7 +7,7 @@ This project starts with a eslint configuration/parser from typescript, react na
 Use the package manager [yarn](https://yarnpkg.com/en/docs/getting-started) to install this package.
 
 ```bash
-git clone xxx
+git clone https://github.com/fintory/typescript-expo-starter.git
 yarn
 yarn start
 ```
