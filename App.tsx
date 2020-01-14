@@ -1,7 +1,9 @@
 import React from 'react'
-import { Image, Text, View } from 'react-native'
+import { Image, Platform, View, StatusBar } from 'react-native'
 import { AppLoading, SplashScreen } from 'expo'
 import { Asset } from 'expo-asset'
+
+import AppNavigator from './src/navigation/AppNavigator'
 
 export default class App extends React.Component {
   state = {
@@ -30,8 +32,9 @@ export default class App extends React.Component {
     }
 
     return (
-      <View style={{ flex: 1, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-        <Text>@typescript/expo-starter</Text>
+      <View style={{ flex: 1 }}>
+        {Platform.OS === 'ios' && <StatusBar barStyle="default" />}
+        <AppNavigator />
       </View>
     )
   }
