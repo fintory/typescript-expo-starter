@@ -37,8 +37,8 @@ export default class App extends React.Component {
   }
 
   _cacheSplashResourcesAsync = async () => {
-    const gif = require('./src/assets/splash.png')
-    return Asset.fromModule(gif).downloadAsync()
+    const splash = require('./src/assets/splash.png')
+    return Asset.fromModule(splash).downloadAsync()
   }
 
   _cacheResourcesAsync = async () => {
