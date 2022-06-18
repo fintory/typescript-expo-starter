@@ -14,7 +14,7 @@
     "@types/react": "^16.9.11",
     "@typescript-eslint/eslint-plugin": "^2.6.0",
     "@typescript-eslint/parser": "^2.6.0",
-    "expo": "~36.0.0",
+    "expo": "45.0.5",
     "react": "~16.9.0",
     "react-dom": "~16.9.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.0.tar.gz",
@@ -31,14 +31,14 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
-    "babel-preset-expo": "7.1.0",
+    "babel-preset-expo": "9.1.0",
     "eslint": "^6.6.0",
     "eslint-config-expo": "^6.0.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.16.0",
     "eslint-plugin-react-hooks": "^1.7.0",
-    "jest-expo": "35.0.0",
+    "jest-expo": "45.0.1",
     "prettier": "^1.18.2"
   },
   "eslintConfig": {
